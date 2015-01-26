@@ -28,7 +28,7 @@ The idea is that you can add a form anywhere on the website and submit it via aj
 	<input type="text" placeholder="Name" name="tx_ajaxmail_ajax[Name]" required/>
 	<input type="email" placeholder="Email*" name="tx_ajaxmail_ajax[Email]" required/>
 	<textarea name="tx_ajaxmail_ajax[Comments]" placeholder="Comments ..."></textarea>
-	<input type="submit" cvalue="send" />
+	<input type="submit" value="send" />
 </form>
 ```
 * Important: Form has to have the class ajaxMail
