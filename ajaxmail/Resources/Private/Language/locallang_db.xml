@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ajaxmail'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ajaxmail_domain_model_template">Template</label>
+			<label index="tx_ajaxmail_domain_model_template.title">Title</label>
+			<label index="tx_ajaxmail_domain_model_template.subject">Subject</label>
+			<label index="tx_ajaxmail_domain_model_template.receiver">Receiver</label>
+			<label index="tx_ajaxmail_domain_model_template.sender">Sender</label>
+            <label index="tx_ajaxmail_domain_model_template.sender_name">Sender name</label>
+			<label index="tx_ajaxmail_domain_model_template.cc">Cc</label>
+			<label index="tx_ajaxmail_domain_model_template.bcc">Bcc</label>
+			<label index="tx_ajaxmail_domain_model_template.message">Message</label>
+            <label index="tx_ajaxmail_domain_model_template.confirmation_message">confirmation message</label>
+            <label index="tx_ajaxmail_domain_model_template.confirmation_receiver">confirmation receiver</label>
+            <label index="tx_ajaxmail_domain_model_template.confirmation_subject">confirmation subject</label>
+            <label index="tx_ajaxmail_domain_model_template.attachment">Attachment</label>
+		</languageKey>
+	</data>
+</T3locallang>

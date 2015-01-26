@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the Ajax Mail extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ajaxmail_domain_model_template">Mail template</label>
+			<label index="tx_ajaxmail_domain_model_template.title">title</label>
+			<label index="tx_ajaxmail_domain_model_template.subject">subject</label>
+			<label index="tx_ajaxmail_domain_model_template.receiver">receiver</label>
+			<label index="tx_ajaxmail_domain_model_template.sender">sender</label>
+            <label index="tx_ajaxmail_domain_model_template.sender_name">sender name</label>
+			<label index="tx_ajaxmail_domain_model_template.cc">cc</label>
+			<label index="tx_ajaxmail_domain_model_template.bcc">bcc</label>
+			<label index="tx_ajaxmail_domain_model_template.message">message</label>
+            <label index="tx_ajaxmail_domain_model_template.confirmation_message">confirmation message</label>
+            <label index="tx_ajaxmail_domain_model_template.confirmation_receiver">confirmation receiver</label>
+            <label index="tx_ajaxmail_domain_model_template.confirmation_subject">confirmation subject</label>
+            <label index="tx_ajaxmail_domain_model_template.attachment">attachment</label>
+		</languageKey>
+	</data>
+</T3locallang>

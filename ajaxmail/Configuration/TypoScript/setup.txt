@@ -1,0 +1,40 @@
+plugin.tx_ajaxmail {
+	view {
+		templateRootPath = {$plugin.tx_ajaxmail.view.templateRootPath}
+		partialRootPath = {$plugin.tx_ajaxmail.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_ajaxmail.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_ajaxmail.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings {
+		ajaxPageType = {$plugin.tx_ajaxmail.settings.ajaxPageType}
+	}
+}
+
+## something
+tx_ajaxmail = PAGE
+tx_ajaxmail {
+  typeNum = {$plugin.tx_ajaxmail.settings.ajaxPageType}
+  config {
+    disableAllHeaderCode = 1
+    xhtml_cleaning = 0
+    admPanel = 0
+    additionalHeaders = Content-type: text/plain
+    no_cache = 1
+  }
+
+    10 = USER
+        10 {
+            userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+            extensionName = Ajaxmail
+            pluginName = Ajax
+            Controller = Template
+            vendorName = TRENDMARKE
+          }
+
+}
