@@ -40,6 +40,10 @@ The idea is that you can add a form anywhere on the website and submit it via aj
 * If you want to acceess the name field in the example just write {Name}
 * You can use {all} as a special variable that lists all submited variables in a list e.g. Name: John, Email: john@doe.de ...
 * You can also use the variables in the subject, receiver and all other field e.g. if you want to send a confirmation mail to the user just add {Email} as the confirmation receiver
+* You can add an optional SQL statement that is executed after the mails were sent. Here you you can also use the variable e.g. 
+'''
+INSERT INTO table (`field`) VALUES ('{Variable}')
+'''
 
 ## ToDo
 * Localization
